@@ -1,0 +1,21 @@
+//Polymorphism
+
+1. Modify Account class so that it is noew an Abstract class by adding the following pure virtual functions
+  - virtual bool deposit(double amount) = 0;
+  - virtual bool withdraw(double amount) = 0;
+
+2. Create I_Printable class interface
+class I_Printable
+{
+  friend ostream &operator<<(ostream &os, const I_Printable &obj);
+
+public:
+  virtual void print(ostream &os) const = 0;
+  virtual ~I_Printable() = default;
+};
+- using overloaded insertion operator
+
+3. Modify the functions in the Account_Uil files so we only have one version of each
+- void display(const vector<Account *> &accounts);
+- void deposit(const vector<Account *> &accounts, double amount);
+- void display(const vector<Account *> &accounts, double amount);

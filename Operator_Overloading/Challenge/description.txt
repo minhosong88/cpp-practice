@@ -1,0 +1,18 @@
+Overloaded operator
+
+* DO THIS CHALLEGE TWICE TO GAIN EXPERIENCE
+
+1. AS MEMBER FUNCTIONS
+2. AS NON MEMBER FUNCTIONS
+
+- '-' unary minus. returns the lowercase version of rhs string
+- '==' returns true if the two strings are equal
+- '!=' returns true if the two strings are not equal
+- '<' returns true if lhs is lexically less than rhs
+
+- '>' returns true if lhs is lexically greater than rhs
+
+- '+' concatenation
+- '+=' concatenation rhs string to lhs string
+- '*' repeat - results in a string that is copied n times.
+-'*=' repeat - results in a string that is copied n times and assign back to lhs

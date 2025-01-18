@@ -1,0 +1,20 @@
+Account - Base Class
+Saving account - Derived Class
+
+1. Add a checking account class to the account hierarchy
+  - Checking account has a name/balance/transaction fee of $1.50 per withdrawal.
+  - Every withdrawal will be assessed this flat fee
+
+2. Add a Trust account class to the Account hierarchy
+  - Trust account has a name/balance/interest rate
+  - deposit works the same as savings account
+  - However, any deposit of $5000.00 or more will receive a $50.00 bonus deposited to the account
+
+  The Trust account withdrawal should only allow 3 withdrawals per year and each of these must be less than 20% of the account balance.
+  No need to keep track of calendar time. just make 4th deposit fails
+
+  Hint:
+  - reuse functionality
+  - What will be the base for each class
+  - Add helper function if wanting to work with new classes
+  - 
