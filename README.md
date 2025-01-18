@@ -52,7 +52,6 @@ gdb --version   # Check GDB version
         "body": [
             "#include <iostream>",
             "",
-            "using namespace std;",
             "",
             "int main() {",
             "    ${1:// Your code here}",
